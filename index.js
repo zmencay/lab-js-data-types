@@ -13,6 +13,7 @@ const tongueTwister = "" + s1 + " " + s2 + " " + s3 + " " + s4 + " " + s5 + " " 
 // Print out the concatenated string
 console.log(tongueTwister);
 
+
 /*******************************************
     Iteration 1.2 | Camel Tail
 *******************************************/
@@ -27,6 +28,7 @@ const result = camelPart1 + camelPart2;
 // Print the cameLtaiL-formatted string
 console.log(result);
 
+
 /*******************************************
     Iteration 2.1 | Calculate Tip
 *******************************************/
@@ -39,16 +41,15 @@ const tipAmount = billTotal * 0.15;
 console.log(tipAmount);
 
 
-
 /*******************************************
     Iteration 2.2 | Generate Random Number
 *******************************************/
 
 // Generate a random integer between 1 and 10 (inclusive)
-
+const randomNumber = Math.floor(Math.random() * 10) + 1;
 
 // Print the generated random number
-
+console.log(randomNumber);
 
 
 /*******************************************
