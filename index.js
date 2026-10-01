@@ -8,12 +8,9 @@ const s4 = "bread";
 const s5 = "and";
 
 // Concatenate the string variables into one new string
-
-let tongueTwister = "" + s1 + " " + s2 + " " + s3 + " " + s4 + " " + s5 + " " + s3 + " " + s2 + " " + s1  + " " + s4 + "";
+const tongueTwister = "" + s1 + " " + s2 + " " + s3 + " " + s4 + " " + s5 + " " + s3 + " " + s2 + " " + s1  + " " + s4 + "";
 
 // Print out the concatenated string
-
-
 console.log(tongueTwister);
 
 /*******************************************
@@ -23,12 +20,12 @@ const part1 = "java";
 const part2 = "script";
 
 // Convert the last letter of part1 and part2 to uppercase and concatenate the strings
-
+const camelPart1 = part1[0] + part1[1] + part1[2] + part1[3].toUpperCase();
+const camelPart2 = part2[0] + part2[1] + part2[2] + part2[3] + part2[4] + part2[5].toUpperCase();
+const result = camelPart1 + camelPart2;
 
 // Print the cameLtaiL-formatted string
-
-
-
+console.log(result);
 
 /*******************************************
     Iteration 2.1 | Calculate Tip
